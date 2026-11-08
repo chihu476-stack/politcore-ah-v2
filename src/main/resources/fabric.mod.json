@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "politcore_ah",
+  "version": "${version}",
+  "name": "Politcore AH Prices",
+  "description": "Отслеживает цены на аукционе (/ah) сервера Politcore, считает среднюю и минимальную цену и показывает их в тултипах.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.politcore.ah.PolitcoreAh"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
